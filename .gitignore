@@ -1,0 +1,4 @@
+venv/
+backend/venv/
+efficientvit_sam_xl1.pt
+backend/efficientvit_sam_xl1.pt

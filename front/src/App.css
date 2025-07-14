@@ -1,0 +1,61 @@
+.app-root {
+  padding: 32px;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  max-width: 550px;
+  margin: 40px auto;
+  background: #fafafa;
+  box-shadow: 0 2px 12px #00000010, 0 2px 4px #00000008;
+  border-radius: 12px;
+}
+
+.app-title {
+  color: #1976d2;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.app-step-label {
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  color: #252525;
+  text-align: center;
+}
+
+.app-stage-container {
+  margin-bottom: 28px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 16px;
+}
+
+.app-nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.app-nav-btn {
+  padding: 10px 24px;
+  border-radius: 6px;
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.app-nav-btn.primary {
+  background: #1976d2;
+  color: #fff;
+}
+
+.app-nav-btn:hover,
+.app-nav-btn.primary:hover {
+  background: #1560b1;
+  color: #fff;
+}

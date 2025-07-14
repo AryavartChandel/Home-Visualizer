@@ -1,0 +1,118 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.home-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.upload-input {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.upload-input:hover {
+  border-color: #007bff;
+}
+
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.preview-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.continue-button {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+  background-color: #218838;
+}
+
+.continue-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.progress-bar {
+  width: 320px;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #3498db;
+  transition: width 0.2s;
+}
+
+.loading-text {
+  font-size: 1.2rem;
+  color: #333;
+}

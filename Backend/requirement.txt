@@ -1,0 +1,15 @@
+git+https://github.com/facebookresearch/segment-anything.git
+omegaconf
+triton-windows
+timm
+onnx
+matplotlib
+torch
+torchvision
+fastapi
+uvicorn
+numpy
+pillow
+opencv-python
+onnxsim
+python-multipart

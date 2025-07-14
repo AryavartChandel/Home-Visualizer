@@ -1,0 +1,58 @@
+/* Review.css */
+.review-container {
+  @apply flex flex-col items-center justify-start min-h-screen bg-gray-50 p-6;
+}
+
+.review-title {
+  @apply text-2xl font-bold mb-4 text-gray-800;
+}
+
+.review-image-area {
+  @apply flex justify-center items-center mb-6;
+}
+
+.review-image {
+  @apply max-w-3xl max-h-[80vh] rounded-lg shadow-md border;
+}
+
+.review-buttons {
+  @apply flex gap-4;
+}
+
+.download-button {
+  @apply bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition;
+}
+
+.edit-button {
+  @apply bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition;
+}
+
+.review-warning {
+  @apply text-red-500 text-lg;
+}
+.review-images-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.review-image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-image-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.review-image {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
